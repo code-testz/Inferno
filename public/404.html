@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <link rel="stylesheet" href="/css/fire.css">
+<head>
+<link rel="icon" type="image/x-icon" href="/img/fav.png">
+  <style>
+    body {
+      color: #ffffff ;
+      text-align: center;
+      font-size: 30px;
+    }
+    code {
+      color: purple;
+    }
+    a {
+      color: #00BEDC;
+    }
+    h2 {
+      color: 
+    }
+  </style>
+  <meta http-equiv="refresh" content="15;url=/">
+  <title>Error | Inferno</title>
+  <center>
+	  <div class="dark fire">
+     <h2 class="Blazing" contenteditable="false">INFERNO</h2>
+    </div>
+  </center>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/fire.css">
+<script src="/js/go.js"></script>
+</head>
+<body>
+  <h2>How did you get here?</h2>
+  <p>You will be taken to the homepage in 15 seconds or you can go there <a href="/">now</a>.</p>
+<br>
+  <div class="stats">
+      <h2>Stats for nerds</h2>
+  Requested URL: <code id="full"></code><br>
+  Requested file path: <code id="path"></code><br>
+  Error code: <code id="error"></code><br>
+  Host name: <code id="host"></code><br>
+  Protocol used: <code id="proto"></code><br>
+ 
+  <div id="stars"></div>
+	<div id="stars2"></div>
+	<div id="stars3"></div>
+
+    <script>
+document.getElementById("full").innerHTML = window.location.href;
+document.getElementById("path").innerHTML = window.location.pathname;
+document.getElementById("error").innerHTML = "404";
+document.getElementById("host").innerHTML = window.location.hostname;
+document.getElementById("proto").innerHTML = window.location.protocol;
+  </script>
+
+  </div>
+</body>
+</html>
