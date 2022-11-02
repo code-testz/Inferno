@@ -3,7 +3,7 @@ Open Source proxy that bypasses web filters, supports many sites.
 
 # Deploying
 
-<a href="https://repl.it/github/nebelung-dev/inferno"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
+<a href="https://replit.com/github/nebelung-dev/inferno"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
 
 # Supports
 - Any static site
@@ -16,4 +16,4 @@ Open Source proxy that bypasses web filters, supports many sites.
 - New Links!
 
 # Join the Discord Server for support
-https://discord.gg/YJPRAyvab8
+https://discord.gg/wv6huJAwEv
