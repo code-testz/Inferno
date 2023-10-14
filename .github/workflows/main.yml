@@ -15,7 +15,6 @@ jobs:
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
-      Bypass-Tunnel-Reminder = "true"
         run: |
           npm install -g localtunnel > /dev/null 2>&1
           tmux new -d -s uv
