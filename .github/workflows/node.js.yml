@@ -30,4 +30,15 @@ jobs:
     - run: cd Inferno
     - run: npm install
     - run: npm start
-    - run: npm test
+    - run:   screen -dm npm start
+
+    - name: tunnel and expose to web
+        run: |
+          npm install -g localtunnel > /dev/null 2>&1
+          tmux new -d -s uv
+          sleep 1
+          tmux send-keys -t uv "lt -p 8080" ENTER
+          sleep 1
+          tmux capture-pane -pt uv -S 1 -E 1
+      - name: sleep
+        run: sleep 999999999
